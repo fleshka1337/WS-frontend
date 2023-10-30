@@ -1,0 +1,82 @@
+body {
+    background: var(--color-background-1);
+}
+
+.main-page{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    padding: 32px 24px;
+    align-items: center;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.main-page__content{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.main-page__logo{
+    max-width: 200px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.user-info{
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-and-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 12px;
+    width: 100%;
+    background: var(--color-white);
+}
+
+.benefits__list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.benefits__item{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.visit-app{
+    background: var(--color-blue-primary);
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 20px 30px;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.show-more{
+    color: var(--color-blue-primary);
+}
+
+.download-sources{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 16px;
+}
