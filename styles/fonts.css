@@ -42,29 +42,29 @@ h1{
 h2 {
     font-weight: 700;
     font-style: normal;
-    font-size: 18;
+    font-size: 18px;
 }
 
 .subtitle-1{
     font-weight: 300;
     font-style: normal;
-    font-size: 18;
+    font-size: 18px;
 }
 
 .body-1 {
     font-weight: 400;
     font-style: normal;
-    font-size: 16;
+    font-size: 16px;
 }
 
 .body-1-semibold{
     font-weight: 600;
     font-style: normal;
-    font-size: 16;
+    font-size: 16px;
 }
 
 .body-2{
     font-weight: 400;
     font-style: normal;
-    font-size: 14;
+    font-size: 14px;
 }
